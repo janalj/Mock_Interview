@@ -5,3 +5,12 @@ Key features
 -	Playing question audio
 -	Recording with timer
 -	Play recordings
+
+Make sure to install the following python Libaries:
+sounddevice
+soundfile
+pygame
+time
+gtts
+os
+scrip
