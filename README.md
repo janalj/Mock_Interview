@@ -6,7 +6,7 @@ Key features
 -	Recording with timer
 -	Play recordings
 
-Make sure to install the following python Libaries:
+Make sure to install the following python libaries:
 sounddevice
 soundfile
 pygame
