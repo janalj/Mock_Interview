@@ -1,18 +1,19 @@
-import PlayingQuestion
+import PlayingQuestions
 import RecordingQuestions
 from pygame import mixer
 import soundfile as sf
 import sounddevice as sd
 import time
+import ImportFromCSV
 # change to extracting from csv file
-questions = [[1,"Tell me about yourself"],[2,"What is your biggest challenge"]]
+questions = ImportFromCSV.csvQuestion('Interview_Questions.csv')
 
 # play in order
 for i in range(len(questions)):
     #print question
     print ("Question: ",questions[i][1])
     #Play Audio
-    PlayingQuestion.play_questions(questions[i][1])
+    PlayingQuestions.play_questions(questions[i][1])
 
     #start to record and start a timer
     RecordingQuestions.recordquestion(questions[i][1],3)
