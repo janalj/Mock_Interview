@@ -1,12 +1,12 @@
 # Mock_Interview
 
-This project intends to simulate mock interview situation. Users can type their questions in the csv file. The program will run through the questions either in order or randomly. The system will play each questions, start a timer, and record the answers. Each answer will be saved naming after the questions.
+This program simulates mock interview . Users either enter their questions in the csv file or modify the functions directly. The program traverses the questions either in order or randomly. Your computer reads each question, start a timer, and record the answers. Every recorded answer will be output as a mp3 file, stored on your computer. Files names are named after the questions.
 Key features 
--	Playing question audio
--	Recording with timer
+-	Play audio of given questions
+-	Record your answers
 -	Play recordings
 
-Make sure to install the following python libaries:
+Install the following python libaries:
 sounddevice
 soundfile
 pygame
